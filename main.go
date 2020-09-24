@@ -1,10 +1,18 @@
 package main
 
 import (
+	"flag"
+	"fmt"
+	"time"
 )
 
 func main() {
-
+	var ival time.Duration
+	var url string
+	flag.DurationVar(&ival, "ival", 5*time.Second, "interval for monitoring in seconds")
+	flag.StringVar(&url, "url", "localhost:12345", "url of the server to monitor")
+	flag.Parse()
+	fmt.Println(ival, url)
 }
 
 /*
