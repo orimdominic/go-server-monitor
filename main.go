@@ -20,10 +20,5 @@ func main() {
 -	push output to array (check time, status)
 -	log output to console (checks, ups, downs, currentStatus)
 -	on exit or interrupt, write array to disk, with details
+- create Go, Python and Node.js servers to test
 */
-
-//  How do I record screeens on linux
-// Remember to add image to readmes
-// Add readme issue, pr and image to go-mmm
-// Draft go-mmm article
-// go-server-monitor app
